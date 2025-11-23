@@ -4,13 +4,19 @@ Este projeto implementa um sistema completo de gerenciamento de jogos de dominó
 
 ## 📋 Sobre o Projeto
 
+**Alunos envolvidos:**
+
+- Gabriel Vinicius Miranda Sena - 2024190706471
+- Rafaela Santos Sepulvida Orrico - 2024190701321
+- Daniel Vitoriano Santos - 2024190702641
+
 A aplicação Python serve apenas como interface para executar queries e exibir resultados. Toda a lógica de negócio do jogo de dominó (validações, regras, pontuação, detecção de jogo trancado, etc.) está implementada diretamente no PostgreSQL usando:
 
 - **Procedures**: Comprar peça do monte, validar jogada;
 - **Functions**: Verificar jogadas possíveis, detectar jogo trancado;
-- **Triggers**:  Calcular pontos automaticamente ao bater/fechar;
+- **Triggers**: Calcular pontos automaticamente ao bater/fechar;
 - **Views**: Ranking de pontuação (por usuário), contando quantas partidas vencidas e quantos
-jogos vencidos, Listagem de cada partida e seu vencedor.
+  jogos vencidos, Listagem de cada partida e seu vencedor.
 
 ## 🚀 Como Executar
 
