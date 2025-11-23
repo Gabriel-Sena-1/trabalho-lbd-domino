@@ -71,7 +71,9 @@ O programa oferece um menu interativo com as seguintes opções:
 │   ├── app.py                  # Interface Python
 │   └── conexao/
 │       └── banco.py            # Conexão com PostgreSQL
+│   └── funcoes/
+│       └── funcoes_banco.py    # Funções que chamam comandos SQL
+│       └── menu.py             # Função que exibe o menu e capta resposta do usuário
 ├── requirements.txt            # Dependências Python (psycopg2)
-├── dump.sql                    # Dump atualizado do banco
 └── README.md
 ```
