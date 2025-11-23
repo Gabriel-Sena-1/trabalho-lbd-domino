@@ -83,3 +83,16 @@ O programa oferece um menu interativo com as seguintes opções:
 ├── requirements.txt            # Dependências Python (psycopg2)
 └── README.md
 ```
+
+
+
+---
+## 📚 Documentação Técnica
+
+Para informações detalhadas sobre as **Procedures, Functions, Triggers e Views** implementadas no banco de dados, consulte a [**Documentação Completa**](./documentação.md).
+
+A documentação técnica inclui:
+
+- Descrição detalhada de cada estrutura SQL
+- Problemas que cada implementação resolve
+- Código completo comentado
