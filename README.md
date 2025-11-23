@@ -20,7 +20,17 @@ A aplicação Python serve apenas como interface para executar queries e exibir 
 
 ## Como Executar
 
-### 1. Rodar o Docker
+### 1. Clone o repositório
+```bash
+git clone https://github.com/Gabriel-Sena-1/trabalho-lbd-domino.git
+```
+
+### 2. Entre na pasta clonada
+```bash
+cd trabalho-lbd-domino
+```
+
+### 3. Rodar o Docker
 
 O dump completo do banco de dados será carregado automaticamente ao iniciar o container:
 
@@ -34,7 +44,7 @@ Isso irá:
 - Carregar automaticamente o arquivo `entrypoint/database.sql` com toda a estrutura, dados e lógica
 - Subir o pgAdmin na porta `8090` (opcional)
 
-### 2. Ativar o Ambiente Virtual Python
+### 4. Ativar o Ambiente Virtual Python
 
 ```bash
 python -m venv .venv
@@ -43,13 +53,13 @@ source .venv/bin/activate  # No Linux/Mac
 .venv\Scripts\activate  # No Windows
 ```
 
-### 3. Instalar Dependências
+### 5. Instalar Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Rodar o Programa
+### 6. Rodar o Programa
 
 ```bash
 python src/app.py

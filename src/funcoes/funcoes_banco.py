@@ -97,3 +97,13 @@ def detectar_jogo_trancado(connection, id_partida):
         print(e)
         cursor.close()
         return None
+
+def limpar_dados(connection):
+    try:
+        cursor = connection.cursor()
+        cursor.execute("TRUNCATE TABLE dupla, jogada, jogador, jogador_dupla, jogador_jogo, jogo, mao, mesa, monte, partida, peca_domino, peca_jogada;",)
+        cursor.close()
+    except Error as e:
+        print(e)
+        cursor.close()
+        return None
