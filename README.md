@@ -2,7 +2,7 @@
 
 Este projeto implementa um sistema completo de gerenciamento de jogos de dominó, onde **toda a lógica do domínio está implementada no banco de dados PostgreSQL** através de procedures, functions, triggers e views.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 **Alunos envolvidos:**
 
@@ -18,7 +18,7 @@ A aplicação Python serve apenas como interface para executar queries e exibir 
 - **Views**: Ranking de pontuação (por usuário), contando quantas partidas vencidas e quantos
   jogos vencidos, Listagem de cada partida e seu vencedor.
 
-## 🚀 Como Executar
+## Como Executar
 
 ### 1. Rodar o Docker
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 python src/app.py
 ```
 
-## 🎮 Funcionalidades
+## Funcionalidades
 
 O programa oferece um menu interativo com as seguintes opções:
 
@@ -66,7 +66,7 @@ O programa oferece um menu interativo com as seguintes opções:
 5. **Listar jogadas possíveis** - Mostra quais peças o jogador pode jogar
 6. **Detectar jogo trancado** - Verifica se o jogo está trancado
 
-## 🗄️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -87,7 +87,7 @@ O programa oferece um menu interativo com as seguintes opções:
 
 
 ---
-## 📚 Documentação Técnica
+## Documentação Técnica
 
 Para informações detalhadas sobre as **Procedures, Functions, Triggers e Views** implementadas no banco de dados, consulte a [**Documentação Completa**](./documentação.md).
 
