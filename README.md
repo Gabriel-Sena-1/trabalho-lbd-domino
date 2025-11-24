@@ -48,6 +48,11 @@ Isso irá:
 
 ```bash
 python -m venv .venv
+# ou (caso o de cima não funcione, depende de ambiente =D)
+python3 -m venv .venv
+```
+
+```bash
 source .venv/bin/activate  # No Linux/Mac
 # ou
 .venv\Scripts\activate  # No Windows
